@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# 中间结果：体积较大且可由脚本重建（results/*.xlsx 结果表保留在仓库中）
+results/*.npz
+results/*.npy
+results/*.csv
+
+# 图表中间产物（正式图保留在 figures/）
+figures/_dot/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+
+# 日志
+*.log
